@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Brian Griffin",
+    "image": "/images/brian_griffin.png"
+  },
+  {
+    "id": 2,
+    "name": "Chris Griffin",
+    "image": "/images/chris_griffin.png"
+  },
+  {
+    "id": 3,
+    "name": "Cleveland Brown",
+    "image": "/images/cleveland_brown.png"
+  },
+  {
+    "id": 4,
+    "name": "Evil Monkey",
+    "image": "/images/evil_monkey.png"
+  },
+  {
+    "id": 5,
+    "name": "Glenn Quagmire",
+    "image": "/images/glenn_quagmire.png"
+  },
+  {
+    "id": 6,
+    "name": "Joe Swanson",
+    "image": "/images/joe_swanson.png"
+  },
+  {
+    "id": 7,
+    "name": "Lois Griffin",
+    "image": "/images/lois_griffin.png"
+  },
+  {
+    "id": 8,
+    "name": "Meg Griffin",
+    "image": "/images/meg_griffin.png"
+  },
+  {
+    "id": 9,
+    "name": "Mr. Weed",
+    "image": "/images/mr_weed.png"
+  },
+  {
+    "id": 10,
+    "name": "Peter Griffin",
+    "image": "/images/peter_griffin.png"
+  },
+  {
+    "id": 11,
+    "name": "Stewie Griffin",
+    "image": "/images/stewie_griffin.png"
+  },
+  {
+    "id": 12,
+    "name": "Tricia Takanawa",
+    "image": "/images/tricia_takanawa.png"
+  }
+]
