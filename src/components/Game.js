@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import characters from "../characters.json";
 import Character from "./Character";
+import "./style.css";
 
 class Game extends Component {
   state = {
@@ -89,15 +90,17 @@ class Game extends Component {
         {/* Create a new array of Character components using data from characters.json */}
         {/* Display the array on the page using JSX */}
         {/* Execute the handleClick function when Character component is clicked */}
-        {this.state.characters.map((character) => (
-          <Character
-            id={character.id}
-            key={character.id}
-            name={character.name}
-            image={character.image}
-            handleClick={this.handleClick}
-          />
-        ))}
+        <div className="grid">
+          {this.state.characters.map((character) => (
+            <Character
+              id={character.id}
+              key={character.id}
+              name={character.name}
+              image={character.image}
+              handleClick={this.handleClick}
+            />
+          ))}
+        </div>
 
         {/* TODO:
               - (DONE) Randomize on click
