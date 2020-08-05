@@ -68,7 +68,6 @@ class Game extends Component {
       // Increment the score
       var newScore = this.state.score;
       newScore = newScore += 1;
-      console.log("New score: ", newScore);
       this.setState({ score: newScore });
 
       // Add the character to the clickedCharacters array
@@ -105,7 +104,7 @@ class Game extends Component {
                   - Create array that holds all the characters
                   - When any character is clicked, randomize array and place back on the page
               
-              - Scoring
+              - (DONE) Scoring
                   - Create an array to store clicked characters
                   - Each time a character is clicked, check if character is already in the clicked characters array:
                       - IF YES:
